@@ -1,1 +1,30 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment variables
 .env
+.env.*  # like .env.production, .env.local
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDEs/editors
+.vscode/
+.idea/
+*.swp
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional: coverage from tests
+coverage/

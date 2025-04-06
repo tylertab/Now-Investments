@@ -27,4 +27,4 @@
 - **React**
 - **Axios for API calls**
 - **React Router**
-- **Tailwind / Material UI** (if used — let me know to update)
+- **Tailwind / Material UI** 

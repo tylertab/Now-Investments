@@ -6,7 +6,7 @@ import { fetchTopHeadlines } from './Pull-Data.ts';
 
 dotenv.config();
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 
 // MongoDB setup
 mongoose.connect(process.env.MONGO_URI!, {
@@ -87,4 +87,3 @@ app.get('/api/save-headlines', async (req, res) => {
       res.status(500).send('❌ Failed to save headlines.');
     }
   });
-  

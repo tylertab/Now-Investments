@@ -28,15 +28,19 @@ function CardHeader({ className, ...props }: React.ComponentProps<"div">) {
   )
 }
 
+
+
+
 function CardTitle({ className, ...props }: React.ComponentProps<"div">) {
   return (
     <div
       data-slot="card-title"
-      className={cn("leading-none font-semibold", className)}
+      className={cn("leading-none font-bold", className)}
       {...props}
     />
   )
 }
+
 
 function CardDescription({ className, ...props }: React.ComponentProps<"div">) {
   return (

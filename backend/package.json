@@ -1,11 +1,17 @@
 {
   "dependencies": {
     "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2",
     "newsapi": "^2.4.1",
+    "node-cron": "^3.0.3",
     "openai": "^4.91.1"
   },
   "devDependencies": {
-    "@types/node": "^22.14.0"
+    "@types/express": "^5.0.1",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^22.14.0",
+    "@types/node-cron": "^3.0.11"
   },
   "type": "module"
 }
